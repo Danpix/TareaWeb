@@ -1,0 +1,15 @@
+.h2{
+    font-size: 4rem;
+}
+.Nombre, .grupo{
+    color: rgb(180, 208, 177);
+}
+.info{ 
+    text-align: center;
+    width: 100%;
+    height: max-content;
+    background-image: url(/img/logo.jpg);
+}
+.img{
+    position: absolute;
+}
