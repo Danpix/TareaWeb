@@ -62,3 +62,11 @@ body{
 
 }
 
+.hero{
+    background-image: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--blanco);
+    padding: 2rem;
+    text-align: center;
+}
