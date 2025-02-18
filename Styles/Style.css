@@ -24,7 +24,7 @@ body{
     background-color: var(--secundario);
 }
 .contenedor{
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 .nav-bg{
@@ -39,7 +39,6 @@ body{
     padding: 1rem;
 }
 .navegador-principal{
-    max-width: 120rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -49,10 +48,11 @@ body{
     font-size: 2rem;
     font-weight: bold;
 }
-@media (min-with: 768px){
+@media (min-width: 768px){
   .navegador-principal{
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center; /* Alinea los elementos verticalmente */
+    gap: 2rem; /* Espaciado entre enlaces */
   }
 }
 
